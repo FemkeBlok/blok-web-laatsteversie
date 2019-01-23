@@ -19,7 +19,7 @@ header {
     background-color: #06173d;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     z-index: 3;
-    align-items: ;
+
 }
 
 img.logo {
@@ -474,7 +474,7 @@ article.gelezen {
     background-color: #a7e1e9
 }
 
-}
+
 
 article form {
     float: left;
@@ -525,7 +525,7 @@ article form .rate > input:checked + label:hover,
 
 .container {
     position: relative;
-    top: 0;
+    top: 0em;
     right: 0;
     bottom: 0;
     left: 0;
@@ -536,18 +536,21 @@ article form .rate > input:checked + label:hover,
 }
 
 footer nav {
-    height: 0em;
+    height: 80px;
     width: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+
     transition: all ease 0.5s;
 }
 
 footer nav.active {
     width: 480px;
     padding-right: 80px;
+    position: relative;
+    ;
 }
 
 footer nav li {
@@ -565,6 +568,9 @@ footer nav.active .menu .icon a i {
     padding: 0.5rem;
     -webkit-animation: blow 0.5s ease forwards;
     animation: blow 0.5s ease forwards;
+    position: relative;
+    top: 2em;
+    left: 1.4em
 }
 
 
