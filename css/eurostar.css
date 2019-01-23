@@ -13,7 +13,7 @@ body {
 header {
     display: flex;
     justify-content: flex-end;
-    height: 70px;
+    height: 4.4em;
     position: relative;
     align-items: center;
     background-color: #06173d;
@@ -74,28 +74,16 @@ nav li:hover {
 }
 
 
-
-
-
-
-
-
-
 .nav-burger {
     display: none;
-    width: 32px;
-    height: 32px;
+    width: 2em;
+    height: 2em;
     position: absolute;
     transform: translateY(-50%);
 
     background: url("https://www.iconfinder.com/data/icons/tupix-1/30/list-512.png") no-repeat center;
     background-size: cover;
 }
-
-
-
-
-
 
 
 section .container {
@@ -106,24 +94,22 @@ section .container {
     margin-bottom: 4em;
     border-bottom: 2em solid #24b5c9;
     background-color: #24b5c9;
+    border-bottom: 2em;
+    color: #24b5c9;
 
 
 }
 
-h1 {
-    font-weight: 400;
-    font-size: 3rem;
-    font-family: Aspect Regular;
-    text-align: left;
-    top: 1.5em;
-}
+
 
 section .pbanner {
     position: absolute;
     bottom: 10em;
-    left: 0.7em;
+    left: 1em;
     text-align: left;
+    font-weight: bolder;
     font-family: 'Major Mono Display', monospace;
+
 
 }
 
@@ -134,9 +120,6 @@ section h1 {
     text-align: left;
     color: white;
     font-size: 1.7em;
-
-
-
     font-family: 'Major Mono Display', monospace;
 }
 
@@ -187,7 +170,7 @@ aside {
     padding: 3em;
     padding-bottom: 3.750em;
     margin-bottom: 2.188em;
-    margin-top: 0.125em;
+    margin-top: 4.125em;
     border-top: 20em;
     height: 31em;
 
@@ -320,7 +303,7 @@ article form option {
 article form {
     position: absolute;
     top: 0em;
-    right: 0em;
+    right: 1.3em;
 
 }
 
@@ -536,8 +519,8 @@ article form .rate > input:checked + label:hover,
 }
 
 footer nav {
-    height: 80px;
-    width: 80px;
+    height: 5em;
+    width: 5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -547,8 +530,8 @@ footer nav {
 }
 
 footer nav.active {
-    width: 480px;
-    padding-right: 80px;
+    width: 30em;
+    padding-right: 5em;
     position: relative;
     ;
 }
@@ -563,8 +546,8 @@ footer nav li:hover {
 
 
 footer nav.active .menu .icon a i {
-    width: 20px;
-    height: 20px;
+    width: 1.25em;
+    height: 1.25em;
     padding: 0.5rem;
     -webkit-animation: blow 0.5s ease forwards;
     animation: blow 0.5s ease forwards;
@@ -584,11 +567,11 @@ footer nav .trigger {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 2.750em;
+    height: 2.750em;
     position: absolute;
     right: 7.2em;
-    border-radius: 500px;
+    border-radius: 31.250em;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
     transition: all 0.3s;
 }
@@ -609,7 +592,7 @@ footer nav ul li a {
 }
 
 footer nav ul li a i {
-    border-radius: 500px;
+    border-radius: 31.250em;
     background-color: #1a1a1a;
     width: 0;
     height: 0;
@@ -646,7 +629,7 @@ footer nav ul li a i {
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 43.750em) {
     nav {
         width: 100%;
     }
@@ -697,6 +680,8 @@ footer nav ul li a i {
         padding: 0em;
         margin: 0em;
     }
+
+
 }
 
 
@@ -730,5 +715,31 @@ footer nav ul li a i {
         top: 0.7em
     }
 
+    footer nav .trigger {
+        background-color: #1a1a1a;
+        color: #fff;
+        font-size: 1.5rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 3.75em;
+        height: 3.75em;
+        position: absolute;
+        top: -8em;
+        right: .2em;
+        border-radius: 31.25em;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+        transition: all 0.3s;
+    }
 
+    footer nav.active .menu .icon a i {
+        width: 1.25em;
+        height: 1.25em;
+        padding: 0.5rem;
+        -webkit-animation: blow 0.5s ease forwards;
+        animation: blow 0.5s ease forwards;
+        position: relative;
+        top: -5em;
+        left: 1.4em
+    }
 }
