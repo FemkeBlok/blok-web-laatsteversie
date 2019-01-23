@@ -92,10 +92,10 @@ section .container {
     bottom: 0em;
     border: 2em;
     margin-bottom: 4em;
-    border-bottom: 2em solid #24b5c9;
     background-color: #24b5c9;
     border-bottom: 2em;
     color: #24b5c9;
+    border-bottom: 4em solid #24b5c9;
 
 
 }
@@ -181,7 +181,7 @@ aside {
 
 }
 
-.checkboxes {
+form .checkboxes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -189,7 +189,7 @@ aside {
 
 }
 
-.genre {
+form .genre {
     margin-right: 6em;
     margin-bottom: 0.5em
 }
@@ -261,7 +261,8 @@ aside .filterbutton {
     line-height: 1.25em;
     padding: 1.125em 0.625em;
     width: 100%;
-
+    position: relative;
+    top: -2em
 }
 
 aside .filterbutton:hover {
@@ -302,8 +303,7 @@ article form option {
 
 article form {
     position: absolute;
-    top: 0em;
-    right: 1.3em;
+    right: .5em;
 
 }
 
@@ -701,18 +701,20 @@ footer nav ul li a i {
         top: 1em;
     }
 
-    .sorteren {
-        position: relative;
-        top: -14em;
+    article form {
+        position: absolute;
+        right: .5em;
+        top: -15em;
+
     }
 
     section {
         position: relative;
-        top: -13em
+        top: -15em
     }
     .resultaten {
         position: relative;
-        top: 0.7em
+        top: -8.7em
     }
 
     footer nav .trigger {
@@ -740,6 +742,6 @@ footer nav ul li a i {
         animation: blow 0.5s ease forwards;
         position: relative;
         top: -5em;
-        left: 1.4em
+        left: 1.4em;
     }
 }
