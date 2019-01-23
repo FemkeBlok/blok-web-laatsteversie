@@ -1,0 +1,728 @@
+body {
+    font-family: Pembroke, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+/*navigatie */
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    position: relative;
+    align-items: center;
+    background-color: #06173d;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    z-index: 3;
+    align-items: ;
+}
+
+img.logo {
+    position: absolute;
+    top: 0.7em;
+    left: 1em;
+    width: 8em;
+    height: 3em
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #31415f;
+    margin: 0em;
+    padding: 0em;
+
+}
+
+nav li {
+
+
+    color: white;
+    width: 10em;
+    height: 4.4em;
+    text-align: center;
+
+}
+
+header nav ul:active {
+    background-color: white;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 0em;
+    padding: 0em;
+    display: inline-block;
+    position: relative;
+    top: 1.5em;
+
+}
+
+
+nav li:hover {
+    background-color: #4f5c76;
+    padding: 0em;
+    margin: 0em;
+}
+
+
+
+
+
+
+
+
+
+.nav-burger {
+    display: none;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    transform: translateY(-50%);
+
+    background: url("https://www.iconfinder.com/data/icons/tupix-1/30/list-512.png") no-repeat center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+section .container {
+
+    position: relative;
+    bottom: 0em;
+    border: 2em;
+    margin-bottom: 4em;
+    border-bottom: 2em solid #24b5c9;
+    background-color: #24b5c9;
+
+
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    font-family: Aspect Regular;
+    text-align: left;
+    top: 1.5em;
+}
+
+section .pbanner {
+    position: absolute;
+    bottom: 10em;
+    left: 0.7em;
+    text-align: left;
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+section h1 {
+    position: absolute;
+    top: -0.5em;
+    left: 0.5em;
+    text-align: left;
+    color: white;
+    font-size: 1.7em;
+
+
+
+    font-family: 'Major Mono Display', monospace;
+}
+
+img {
+    width: 100%;
+
+    background-image: url;
+    background-size: cover;
+    width: 100%;
+    height: 15.625em;
+
+
+}
+
+section button {
+    position: absolute;
+    top: 12.5em;
+    left: 1.25em;
+    padding: 0.56em 1.5em;
+    background-color: #fbde12;
+    color: #31415f;
+    font-size: 1em;
+    border-radius: 0.25em;
+    box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
+
+}
+
+section button:hover {
+    background-color: #ffe600;
+}
+
+
+
+
+
+
+
+
+
+/*filteren*/
+
+aside {
+    text-decoration: none;
+    background-color: #31415f;
+    border-radius: 0.313em;
+    max-width: 40em;
+    color: white;
+    padding: 3em;
+    padding-bottom: 3.750em;
+    margin-bottom: 2.188em;
+    margin-top: 0.125em;
+    border-top: 20em;
+    height: 31em;
+
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.genre {
+    margin-right: 6em;
+    margin-bottom: 0.5em
+}
+
+form .slider {
+    -webkit-appearance: none;
+
+    width: 100%;
+    height: 1.563em;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    margin-top: 3em;
+}
+
+form .slider:hover {
+    background-color: white;
+}
+
+form .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 1.563em;
+    height: 1.563em;
+    background: #a7e1e9;
+
+}
+
+form slider::-moz-range-thumb {
+    width: 1.563em;
+    height: 1.563em;
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+form p {
+    font-size: 1.2em;
+}
+
+
+
+
+aside .filterbutton {
+
+
+    border-radius: 0.313em;
+    text-align: center;
+    background-color: rgb(251, 221, 15);
+    color: #31415f;
+    border-style: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    box-shadow: 2px, 2px #d1b829;
+    text-align: center;
+    margin-top: 3.125em;
+    box-shadow: rgb(210, 184, 43) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
+    text-transform: uppercase;
+    line-height: 1.25em;
+    padding: 1.125em 0.625em;
+    width: 100%;
+
+}
+
+aside .filterbutton:hover {
+    background-color: #ffe96a;
+
+}
+
+
+
+
+
+
+/*sorteren*/
+
+article {
+    position: relative;
+    right: -.2em;
+    border: 2em;
+    margin: 1em;
+
+
+}
+
+article form select {
+    height: 2em;
+    width: 10em;
+    background: #ffe96a;
+    margin: 1em;
+    position: relative;
+    top: 0.9em;
+}
+
+article form option {
+    width: 10em;
+    height: 12em;
+    background: yellow
+}
+
+article form {
+    position: absolute;
+    top: 0em;
+    right: 0em;
+
+}
+
+.resultaten {
+    position: relative;
+    top: -1em;
+    text-align: center;
+    font-size: 1.6em
+}
+
+
+section {
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    color: black
+}
+
+/*resultaten */
+
+section article {
+    background-color: #a7e1e9;
+    padding: 1.56em;
+    width: 20em;
+    margin-bottom: 2.19em;
+    margin-top: 0px;
+    border-radius: 0.94em;
+    margin-top: 0px;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-decoration: none;
+    width: 17em;
+}
+
+
+
+
+
+article h2 {
+    font-size: 1.2em;
+    line-height: 1.2em;
+
+}
+
+article p {
+    font-size: 1.0em;
+    line-height: .5em;
+
+
+}
+
+article h3 {
+    font-size: 1.0em;
+    line-height: 0.4em;
+    font-weight: normal
+}
+
+
+
+article a {
+    font-family: Pembroke, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+    box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
+    color: rgb(85, 86, 90);
+    padding: 4em;
+
+    text-align: center;
+    text-transform: uppercase;
+    width: 11em;
+    border-radius: 0.25em;
+    border-width: 0px;
+    padding: 0px;
+    text-decoration: none;
+    position: relative;
+
+    left: 0.1em;
+    display: block;
+    padding: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+article a: hover {
+    border-top: 0.3125 solid #ffe600;
+}
+
+
+
+article h2 {
+    margin-left: 3.125;
+    color: black;
+}
+
+article img {
+    border: 0px;
+    margin-top: auto;
+    margin-left: auto;
+
+    text-decoration: none;
+    border-top-right-radius: .5em;
+    border-top-left-radius: .5em;
+    width: 17em;
+    height: 8em;
+}
+
+
+
+article img.ster {
+    width: 1.7em;
+    height: 1.7em;
+    position: relative;
+    left: 2.0em;
+    bottom: 2.0em;
+
+}
+
+article img.likebutton {
+    width: 2em;
+    height: 2em;
+    position: relative;
+    bottom: 2.4em;
+    left: 15em
+}
+
+article.gelezen {
+    position: relative;
+    top: 7em;
+    border-radius: 0.94em;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-bottom: 1em;
+    text-decoration: none;
+    width: 17em;
+    background-color: #a7e1e9
+}
+
+}
+
+article form {
+    float: left;
+    position: absolute;
+    top: 0em;
+
+}
+
+article form:not(:checked) > input {
+    position: absolute;
+    top: -9999px;
+}
+
+article form.rate:not(:checked) > label {
+    float: right;
+    width: 1.0em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+article form.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+
+article form.rate > input:checked ~ label {
+    color: #ffc700;
+}
+
+article form.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #ffd74a;
+}
+
+article form .rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #ffd74a;
+}
+
+
+
+
+
+.container {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav {
+    height: 0em;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+footer nav.active {
+    width: 480px;
+    padding-right: 80px;
+}
+
+footer nav li {
+    list-style-type: none;
+}
+
+footer nav li:hover {
+    background-color: #f4f4f4;
+}
+
+
+footer nav.active .menu .icon a i {
+    width: 20px;
+    height: 20px;
+    padding: 0.5rem;
+    -webkit-animation: blow 0.5s ease forwards;
+    animation: blow 0.5s ease forwards;
+}
+
+
+
+
+
+footer nav .trigger {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 1.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 7.2em;
+    border-radius: 500px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s;
+}
+
+
+
+footer nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+footer nav ul li a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-decoration: none;
+}
+
+footer nav ul li a i {
+    border-radius: 500px;
+    background-color: #1a1a1a;
+    width: 0;
+    height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+@-webkit-keyframes blow {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+}
+
+@keyframes blow {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        width: 100%;
+        flex-flow: column wrap;
+        height: 0;
+
+        background-color: #06173d;
+        flex-direction: row
+    }
+
+    nav ul li {
+        margin-left: 0;
+        text-align: center;
+        height: 5em;
+        width: 100%;
+        margin: 0em;
+        padding: 0em;
+    }
+
+
+    nav ul.open {
+        position: relative;
+        top: 9.7em;
+        height: 15.2em;
+
+    }
+
+    nav ul:active {
+        background-color: white;
+    }
+
+    .nav-burger {
+        display: block;
+        background-color: #4f5c76;
+        ;
+        border-radius: 0.5em;
+        position: absolute;
+        top: 2.3em;
+        right: 1em;
+
+    }
+
+    nav li:hover {
+        background-color: #4f5c76;
+        padding: 0em;
+        margin: 0em;
+    }
+}
+
+
+
+@media (min-width: 80em) {
+    aside {
+        position: relative;
+        top: -12em;
+        margin-left: auto;
+        margin-right: auto;
+        height: 26.5em;
+
+    }
+
+    aside button {
+        position: relative;
+        top: 1em;
+    }
+
+    .sorteren {
+        position: relative;
+        top: -14em;
+    }
+
+    section {
+        position: relative;
+        top: -13em
+    }
+    .resultaten {
+        position: relative;
+        top: 0.7em
+    }
+
+
+}
