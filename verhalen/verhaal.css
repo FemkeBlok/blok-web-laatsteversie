@@ -1,0 +1,151 @@
+.titel {
+    width: 30%;
+    height: 30%;
+    float: right;
+    z-index: 2;
+
+}
+
+
+body {
+    background-color: #f1c5a5
+}
+
+
+img {
+
+    width: 100%;
+
+    z-index: -5;
+    display: block;
+    transition: transform .2s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+}
+
+.titel {
+    width: 50%;
+    float: right;
+    z-index: 1;
+    height: 15em;
+    position: relative
+}
+
+.titel {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+    animation-direction: alternate;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+.laag1 {
+
+
+
+    -webkit-animation: rotation 60s infinite linear;
+}
+
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(359deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+.titel {
+
+    float: right;
+    z-index: 2;
+
+
+}
+
+.titel {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.titel:hover {
+    opacity: 0.5;
+}
+
+.rate {
+    float: left;
+    position: absolute;
+    top: 0em;
+
+}
+
+.rate:not(:checked) > input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked) > label {
+    float: right;
+    width: 1.0em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #ffd74a;
+}
+
+z .rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #ffd74a;
+}
+
+
+
+@media (min-width: 68.75em) {
+    img {
+        width: 41em;
+        height: 51em;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
