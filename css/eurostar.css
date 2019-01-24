@@ -169,8 +169,8 @@ aside {
     color: white;
     padding: 3em;
     padding-bottom: 3.750em;
-    margin-bottom: 2.188em;
-    margin-top: 4.125em;
+    margin-bottom: 4.188em;
+    margin-top: 2.125em;
     border-top: 20em;
     height: 31em;
 
@@ -190,7 +190,7 @@ form .checkboxes {
 }
 
 form .genre {
-    margin-right: 6em;
+    margin-right: 7.9em;
     margin-bottom: 0.5em
 }
 
@@ -680,7 +680,12 @@ footer nav ul li a i {
         padding: 0em;
         margin: 0em;
     }
+    article form {
+        position: absolute;
+        right: 1.2em;
+        top: -.4em;
 
+    }
 
 }
 
@@ -693,6 +698,7 @@ footer nav ul li a i {
         margin-left: auto;
         margin-right: auto;
         height: 26.5em;
+        margin-bottom: 4em;
 
     }
 
