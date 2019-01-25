@@ -341,7 +341,9 @@ section article {
     width: 17em;
 }
 
-
+section.verhalen {
+    display: none
+}
 
 
 
@@ -561,8 +563,8 @@ footer nav.active .menu .icon a i {
 
 
 footer nav .trigger {
-    background-color: #1a1a1a;
-    color: #fff;
+    background-color: #a7e1e9;
+    color: black;
     font-size: 1.5rem;
     display: inline-flex;
     justify-content: center;
@@ -570,7 +572,7 @@ footer nav .trigger {
     width: 2.750em;
     height: 2.750em;
     position: absolute;
-    right: 7.2em;
+    right: 7em;
     border-radius: 31.250em;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
     transition: all 0.3s;
@@ -593,13 +595,13 @@ footer nav ul li a {
 
 footer nav ul li a i {
     border-radius: 31.250em;
-    background-color: #1a1a1a;
+    background-color: #06173d;
     width: 0;
     height: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #ffe600;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
     -webkit-transform: scale(0);
     transform: scale(0);
@@ -629,7 +631,7 @@ footer nav ul li a i {
 
 
 
-@media only screen and (max-width: 43.750em) {
+@media (max-width: 43.750em) {
     nav {
         width: 100%;
     }
@@ -718,14 +720,14 @@ footer nav ul li a i {
         position: relative;
         top: -15em
     }
-    .resultaten {
+    article .resultaten {
         position: relative;
-        top: -8.7em
+        top: -9.8em
     }
 
     footer nav .trigger {
-        background-color: #1a1a1a;
-        color: #fff;
+        background-color: #a7e1e9;
+        color: black;
         font-size: 1.5rem;
         display: inline-flex;
         justify-content: center;
@@ -734,7 +736,7 @@ footer nav ul li a i {
         height: 3.75em;
         position: absolute;
         top: -8em;
-        right: .2em;
+        right: -0.5em;
         border-radius: 31.25em;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
         transition: all 0.3s;
@@ -747,7 +749,7 @@ footer nav ul li a i {
         -webkit-animation: blow 0.5s ease forwards;
         animation: blow 0.5s ease forwards;
         position: relative;
-        top: -5em;
+        top: -4em;
         left: 1.4em;
     }
 }
