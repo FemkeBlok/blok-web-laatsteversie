@@ -10,8 +10,8 @@
 })()
 window.onload = function () {
 
-    var socialShare = document.querySelector(".socialShare");
-    var trigger = document.querySelector(".trigger");
+    const socialShare = document.querySelector(".socialShare");
+    const trigger = document.querySelector(".trigger");
 
     trigger.onclick = function () {
         if (!socialShare.classList.contains("active")) {
