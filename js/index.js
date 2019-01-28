@@ -1,23 +1,12 @@
-(function () {
-
-    const burger = document.querySelector('.nav-burger');
-    const menu = document.querySelector('.nav-list');
-
-    burger.onclick = function () {
-        menu.classList.toggle('open');
-    }
-
-})()
-window.onload = function () {
-
-    const socialShare = document.querySelector(".socialShare");
-    const trigger = document.querySelector(".trigger");
-
-    trigger.onclick = function () {
-        if (!socialShare.classList.contains("active")) {
-            socialShare.classList.add("active");
-        } else {
-            socialShare.classList.remove("active");
+function searchToggle(obj, evt){
+    var container = $(obj).closest('.search-wrapper');
+        if(!container.hasClass('active')){
+            container.addClass('active');
+            evt.preventDefault();
         }
-    }
+        else if(container.hasClass('active') && $(obj).closest('.input-holder').length == 0){
+            container.removeClass('active');
+            // clear input
+            container.find('.search-input').val('');
+        }
 }
