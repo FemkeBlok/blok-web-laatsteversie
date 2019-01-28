@@ -1,12 +1,21 @@
-function searchToggle(obj, evt){
-    var container = $(obj).closest('.search-wrapper');
-        if(!container.hasClass('active')){
-            container.addClass('active');
-            evt.preventDefault();
-        }
-        else if(container.hasClass('active') && $(obj).closest('.input-holder').length == 0){
-            container.removeClass('active');
-            // clear input
-            container.find('.search-input').val('');
-        }
-}
+(function () {
+
+    var burger = document.querySelector('.nav-burger');
+    var menu = document.querySelector('.nav-list');
+
+
+    burger.addEventListener('click', function () {
+        menu.classList.toggle('open');
+    });
+
+})();
+var socialShare = document.querySelector(".socialShare");
+
+
+window.top.addEventListener("click", function () {
+    if (!socialShare.classList.contains("active")) {
+        socialShare.classList.add("active");
+    } else {
+        socialShare.classList.remove("active");
+    }
+});
