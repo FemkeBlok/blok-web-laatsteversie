@@ -13,78 +13,25 @@
 <body>
 
     <header class="header">
-        <img src="afbeeldingen/eurostarlogo.png" alt="logo" class="logo">
+        <a href="index.html"><img src="afbeeldingen/eurostarlogo.png" alt="" class="logo"></a>
         <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="inloggen.html" class="nav-link">Inloggen</a></li>
-                <li class="nav-item"><a href="gelezen.html" class="nav-link">Gelezen</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Favoriet</a></li>
-                <li class="nav-item"><a href="aanbevolen.html" class="nav-link">Aanbevolen</a></li>
-            </ul>
-            <img src="https://www.iconfinder.com/data/icons/tupix-1/30/list-512.png" class="nav-burger" alt="hamburger">
-        </nav>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="inloggen.html" class="nav-link">Inloggen</a></li>
+                    <li class="nav-item"><a href="gelezen.html" class="nav-link">Gelezen</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Favoriet</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Aanbevolen</a></li>
+                </ul>
+                <img src="https://www.iconfinder.com/data/icons/tupix-1/30/list-512.png" class="nav-burger" alt="hamburger">
+            </nav>
     </header>
 
 
 
     <section class="container">
-        <h1 class=titel> 99 verhalen voor onderweg</h1><img src="best-books-2017-header.jpg" alt="afbeelding">
+        <h1 class=titel> aanbevolen verhalen voor jou</h1><img src="best-books-2017-header.jpg" alt="afbeelding">
 
     </section>
-
-
-
-    <aside class="filteren">
-
-        <h2 class="titelfilteren"> Kies een verhaal naar jou smaak </h2>
-        <form class="formulier" action="checkbox">
-            <p>Genre </p>
-
-            <div class="checkboxes">
-                <div class="genre">
-                    <input id="roman" type="checkbox" />
-                    <label for="roman">Roman</label>
-                </div>
-                <div class="genre">
-                    <input id="fantasy" type="checkbox" />
-                    <label for="fantasy">Fantasy </label></div>
-                <div class="genre">
-                    <input id="realistisch" type="checkbox" />
-                    <label for="realistisch"> Realistisch</label></div>
-                <div class="genre">
-                    <input id="humor" type="checkbox" /><label for="humor">      Humor</label>
-                </div>
-                <div class="genre">
-                    <input type="checkbox" id="spanning" /><label for="spanning" id="labelspanning">  Spanning</label>
-                </div>
-                <div class="genre">
-                    <input id="personage" type="checkbox" /><label for=personage>  Personage</label>
-                </div>
-            </div>
-        </form>
-        <form action="range">
-            <p> Aantal woorden</p>
-            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-        </form>
-        <button class="filterbutton">zoeken</button >
-    </aside>
-
-
-    <article class="sorteren">
-        <h2 class="resultaten">99 resultaten </h2>
-        <form class="sorterenop" action="checkbox">
-            <select class="sorterenfilter" name="sorterenop">
-                <option class="option" value="meest bekeken"> meest bekeken</option>
-                <option value="a-z"> a-z </option>
-                <option value="z-a">z-a</option>
-                <option value="random">random</option>
-                </select>
-        </form>
-    </article>
-
-
-
-
     <main class="sectionsorterenverhalen">
 
         <article class="verhalen">
@@ -97,7 +44,6 @@
             <a href="verhalen/verhaal.html" class="bekijkverhaalknop">Bekijk verhaal</a> <img class="likebutton" src="afbeeldingen/like%20(7).png" alt="hart">
 
         </article>
-
 
         <article class="verhalen">
             <img class="fotoverhalen" src="https://thumbs.werkaandemuur.nl/b9597d13a1910afd339861abcd6c3329_950x600_fit.jpg" alt="foto">
@@ -172,22 +118,7 @@
             <img class="ster" alt="ster" src="afbeeldingen/star.png">
             <a href="verhalen/verhaal.html" class="bekijkverhaalknop">Bekijk verhaal</a><img class="likebutton" src="afbeeldingen/like%20(7).png" alt="hart">
         </article>
-
     </main>
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
-    <footer class="container">
-       <h2 class="footertekst"> Deel de pagina</h2>
-        <nav class="socialShare">
-            <ul class="menu">
-
-                <li class="icon"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li class="icon"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li class="icon"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            </ul>
-            <div class="trigger"><i class="fas fa-share-alt"></i></div>
-        </nav>
-    </footer>
 
 
     <script src="js/index.js"></script>
