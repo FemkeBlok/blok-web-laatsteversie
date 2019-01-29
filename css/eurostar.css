@@ -175,9 +175,18 @@ form .checkboxes {
 
 }
 
+form .ulgenre {
+    margin: 0em;
+    padding: 0em;
+}
+
+
+
+
 form .genre {
-    margin-right: 7.9em;
-    margin-bottom: 0.5em
+    margin-right: 7.2em;
+    margin-bottom: 0.5em;
+    list-style-type: none;
 }
 
 form .slider {
@@ -527,12 +536,11 @@ footer nav.active {
     ;
 }
 
-footer nav li {
-    list-style-type: none;
-}
 
-footer nav li:hover {
+
+footer nav li {
     background-color: #f4f4f4;
+    list-style-type: none;
 }
 
 
@@ -543,8 +551,8 @@ footer nav.active .menu .icon a i {
     -webkit-animation: blow 0.5s ease forwards;
     animation: blow 0.5s ease forwards;
     position: relative;
-    top: 2em;
-    left: 1.4em
+    top: 4em;
+    right: -1em
 }
 
 
@@ -561,7 +569,7 @@ footer nav .trigger {
     width: 2.750em;
     height: 2.750em;
     position: absolute;
-    right: 7em;
+
     border-radius: 31.250em;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
     transition: all 0.3s;
@@ -594,13 +602,15 @@ footer nav ul li a i {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
     -webkit-transform: scale(0);
     transform: scale(0);
+
 }
 
 footer h2 {
-    position: relative;
-    top: -3em;
+    text-align: center;
     font-size: 1em;
-    right: -2.5em;
+    position: relative;
+    top: -1em;
+
 }
 
 @-webkit-keyframes blow {
@@ -628,12 +638,12 @@ footer h2 {
 
 
 @media (max-width: 43.750em) {
-    nav {
+    header nav {
         width: 100%;
         z-index: 8
     }
 
-    nav ul {
+    header ul {
         width: 100%;
         flex-flow: column wrap;
         height: 0;
@@ -643,7 +653,7 @@ footer h2 {
         z-index: 8
     }
 
-    nav ul li {
+    header ul li {
         margin-left: 0;
         text-align: center;
         height: 5em;
@@ -654,17 +664,13 @@ footer h2 {
     }
 
 
-    nav ul.open {
+    header ul.open {
         position: relative;
         top: 12.2em;
         height: 20.2em;
         z-index: 8
     }
 
-    nav ul:active {
-        background-color: white;
-        z-index: 8
-    }
 
     .nav-burger {
         display: block;
@@ -695,12 +701,14 @@ footer h2 {
 
 
         color: white;
-
-
+        background-color: #06173d;
         text-align: center;
 
     }
-
+    footer h2 {
+        position: relative;
+        top: -1em;
+    }
 
 
 
@@ -718,8 +726,15 @@ footer h2 {
         width: 100%
     }
 
-
-
+    .sorterenfilter {
+        position: relative;
+        top: -1em;
+        right: 1em;
+    }
+    .resultaten {
+        position: relative;
+        top: -2.0em;
+    }
 
 
 }
@@ -753,19 +768,23 @@ footer h2 {
         top: -14em;
     }
 
-    #spanning {
-        position: relative;
-        right: -0.63em;
-    }
 
 
     .sorterenfilter {
         position: relative;
-        top: -20em;
+        top: -20.5em;
     }
     .resultaten {
         position: relative;
         top: -8.5em;
+    }
+
+
+    footer h2 {
+        text-align: center;
+        font-size: 1em;
+        position: relative;
+        top: -12em;
     }
 
     footer nav .trigger {
@@ -775,31 +794,31 @@ footer h2 {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        width: 3.75em;
-        height: 3.75em;
-        position: absolute;
-        top: -6em;
-        right: 2em;
+        width: 2.75em;
+        height: 2.75em;
+        padding: 0.5rem;
+        float: right;
+        top: -8em;
+
         border-radius: 31.25em;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
         transition: all 0.3s;
+
     }
 
     footer nav.active .menu .icon a i {
-        width: 1.25em;
+        width: 1.0em;
         height: 1.25em;
         padding: 0.5rem;
         -webkit-animation: blow 0.5s ease forwards;
         animation: blow 0.5s ease forwards;
         position: relative;
-        top: -4em;
-        left: 1.4em;
+        top: -8em;
+        right: -1em;
+        margin-bottom: 0.2em;
     }
 
-    footer h2 {
-        position: relative;
-        top: -13em;
-        font-size: 1em;
-        right: -2.5em;
-    }
+}
+
+
 }
