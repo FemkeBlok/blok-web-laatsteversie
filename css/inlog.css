@@ -99,7 +99,7 @@ nav li:hover {
 
 
 
-body.inlogpagina {
+body {
     background-color: #a7e1e9;
 
 
@@ -113,7 +113,7 @@ h1 {
 }
 
 
-form.inlog {
+form {
     background-color: white;
     position: relative;
     top: em;
@@ -128,7 +128,7 @@ form.inlog {
 }
 
 
-form.inlog input[type=submit] {
+form input[type=submit] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
@@ -173,6 +173,9 @@ form input[type=submit] {
 
 }
 
+form input[type=submit]:active {
+    background-color: lightblue;
+}
 
 
 
@@ -222,11 +225,7 @@ form a {
     top: -1em
 }
 
-.tekstaccount {
-    font-weight: normal;
-
-    font-size: 0.93em;
-}
+{}
 
 @media only screen and (max-width: 700px) {
     nav {
