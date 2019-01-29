@@ -39,27 +39,34 @@
         <h2 class="titelfilteren"> Kies een verhaal naar jou smaak </h2>
         <form class="formulier" action="checkbox">
             <p>Genre </p>
-
             <div class="checkboxes">
-                <div class="genre">
-                    <input id="roman" type="checkbox" />
-                    <label for="roman">Roman</label>
-                </div>
-                <div class="genre">
-                    <input id="fantasy" type="checkbox" />
-                    <label for="fantasy">Fantasy </label></div>
-                <div class="genre">
-                    <input id="realistisch" type="checkbox" />
-                    <label for="realistisch"> Realistisch</label></div>
-                <div class="genre">
-                    <input id="humor" type="checkbox" /><label for="humor">      Humor</label>
-                </div>
-                <div class="genre">
-                    <input type="checkbox" id="spanning" /><label for="spanning" id="labelspanning">  Spanning</label>
-                </div>
-                <div class="genre">
-                    <input id="personage" type="checkbox" /><label for=personage>  Personage</label>
-                </div>
+                <ul class="ulgenre">
+                    <li class="genre">
+                        <input id="roman" type="checkbox" />
+                        <label for="roman">
+                    Roman</label></li>
+                    <li class="genre">
+                        <input id="fantasy" type="checkbox" />
+                        <label for="fantasy">
+                    Fantasy </label></li>
+                </ul>
+                <ul class="ulgenre">
+                    <li class="genre">
+                        <input id="realistisch" type="checkbox" />
+                        <label for="realistisch">
+                    Realistisch</label></li>
+                    <li class="genre">
+                        <input id="humor" type="checkbox" /><label for="humor">
+                    Humor</label></li>
+                </ul>
+                <ul class="ulgenre">
+                    <li class="genre">
+                        <input type="checkbox" id="spanning" /><label for="spanning" id="labelspanning">
+                    Spanning</label></li>
+                    <li class="genre">
+                        <input id="personage" type="checkbox" /><label for=personage>
+                    Personage</label></li>
+                </ul>
             </div>
         </form>
         <form action="range">
@@ -176,17 +183,18 @@
     </main>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
-    <footer class="container">
-       <h2 class="footertekst"> Deel de pagina</h2>
-        <nav class="socialShare">
+    <footer>
+    <h2 class="footertekst"> Deel de pagina</h2>
+    <div class="container">
+    <nav class="socialShare">
             <ul class="menu">
-
                 <li class="icon"><a href="#"><i class="fab fa-twitter"></i></a></li>
                 <li class="icon"><a href="#"><i class="fab fa-instagram"></i></a></li>
                 <li class="icon"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
             </ul>
             <div class="trigger"><i class="fas fa-share-alt"></i></div>
         </nav>
+    </div>
     </footer>
 
 
