@@ -100,6 +100,7 @@ section h1 {
     font-size: 2.5em;
     font-weight: bold;
     font-family: 'Major Mono Display', monospace;
+    background-color: rgba(6, 23, 61, 0.6);
 }
 
 img {
@@ -204,7 +205,7 @@ aside button:hover {
 
 }
 
-asidebutton:active {
+aside button:active {
     background-color: #a7e1e9;
 }
 
@@ -649,7 +650,8 @@ article form .rate > input:checked + label:hover,
 
     article form select {
         position: relative;
-        top: -5.4em;
+        top: -5.45em;
+        right: 13em
     }
 
     article h2.resultaten {
