@@ -101,6 +101,7 @@ section h1 {
     font-weight: bold;
     font-family: 'Major Mono Display', monospace;
     background-color: rgba(6, 23, 61, 0.6);
+
 }
 
 img {
@@ -155,7 +156,7 @@ form .slider {
     background: #d3d3d3;
     outline: none;
     opacity: 0.7;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 form .slider:hover {
@@ -702,3 +703,10 @@ article form .rate > input:checked + label:hover,
     }
 
 }
+
+/*Bronnen: https://codepen.io/vitoralberto/pen/OPYyYB
+https://www.w3schools.com/css/css_form.asp
+https://codepen.io/femkeblok/pen/yGjEpP
+ https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf
+https://codepen.io/tammykimkim/pen/yegZRw
+https://www.w3schools.com/howto/howto_js_rangeslider.asp*/
