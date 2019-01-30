@@ -1,14 +1,11 @@
 body {
-    font-family: Pembroke, "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-/*navigatie */
-
-body {
     margin: 0;
     font-family: Helvetica, sans-serif;
     background-color: #f4f4f4;
 }
+
+
+
 
 header {
     display: flex;
@@ -634,7 +631,7 @@ article form .rate > input:checked + label:hover,
         top: 0em;
     }
 
-    .rate {
+    article .rate {
         position: relative;
         top: -11.5em;
         right: -7em;
@@ -644,7 +641,7 @@ article form .rate > input:checked + label:hover,
         top: -14em;
     }
 
-    .sorteren {
+    article.sorteren {
         position: relative;
         top: -10.5em;
     }
